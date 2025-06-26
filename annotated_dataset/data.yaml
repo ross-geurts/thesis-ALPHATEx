@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['bottom_p', 'catchword', 'footnotes', 'full_p', 'header', 'hw_marg', 'initial_l', 'page_num', 'print_marg', 'signature', 'text_viz', 'title_page', 'top_p', 'viz']
+
+roboflow:
+  workspace: alphatex-snbfl
+  project: data-annotation-ymn5x
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alphatex-snbfl/data-annotation-ymn5x/dataset/2
